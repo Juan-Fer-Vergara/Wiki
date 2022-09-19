@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+@font-face{
+    font-family: kghappy;
+    src: url(/fonts/kg_happy-20220602T183540Z-001/kg_happy/KGHAPPY.ttf);
+}
+@font-face{
+    font-family: hallowen;
+    src: url(/fonts/halloween_4/halloween\ black\ otf.otf);
+    font-weight: bold;
+}
+header{
+    background: url("/img/index/index-slider.png");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+    min-width: 0px;
+    margin: auto;
+    padding: 0px 0;
+}
+section img{
+ width: 200px;
+ margin: 0;
+}
+section img:hover{
+    transform: scale(1.1) ;
+}
+.contenido2{
+    text-align: center;
+}
+.contenido2 p{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 1em 0;
+    -webkit-text-stroke: 5px black;
+    color: white;
+    font-family: hallowen;
+}
+.contenido2 a{
+    color: white;
+    text-decoration: none;
+    background: #8bc34a;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 10px;
+}
+.contenido2 a:hover{
+    box-shadow: 0 10px 16px black;
+}
+.bagra{
+    background: linear-gradient(to right, #00B2FF , #0400FF );
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+.menu{
+    margin-left: 350px;
+    width: 900px;
+    top: 0%; 
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 17px 30px;
+    display: inline;
+    color: black;
+    font-weight: 10px;
+    margin: auto;
+    font-family: kghappy;
+    z-index: 4px;
+}
+.menu a:hover{
+    background: white;
+    transition: 0.5s;
+}
+.texto{
+    font-size: 9px;
+    border: none;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.texto:hover{
+    background-color: aquamarine;
+}
+.contenido{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.test{
+    text-decoration: none;
+    color:black;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+    background:transparent;
+    font-family: kghappy;
+}
+.desplegable{
+display: inline-block;
+position: relative;
+
+}
+.opciones{
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right, #0093FF , #0027FF );
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.opciones a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.opciones a:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.desplegable:hover .opciones{
+    display: block;
+}
+.desplegable:hover .test{
+    background-color:white;
+    transition: 0.5s;
+}
+
+.archivo p{
+    text-decoration: none;
+    font-family: hallowen;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 560px;
+    margin-top: 100px;
+}
+.contenedor{
+    font-family: hallowen;
+    text-align: center;
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 480px;
+    border-radius: 10px;
+    background-color: #5DADE2;
+    font-size: 10px;
+}
+.contenedor button{
+    border-radius: 10px;
+    border: transparent;
+    width: 80px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.archivo textarea{
+    display: list-item;
+    margin-left: 550px;
+    margin-top: 20px;
+    width: 270px;
+    border:1px solid #5678EF ;
+    text-align: center;
+}
+.archivo button{
+    margin-left: 550px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    background-color:#5678EF ;
+    color: white;
+    border: transparent;
+    box-shadow: 0 10px 16px black;
+    cursor: pointer;
+}
+
+.ingresar{
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 10px 16px black;
+    margin-left: 550px;
+}
+.ingresar::before{
+    background-color: #5678EF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    content: "Seleccionar";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background:#5678EF ;   
+}
+
+.imge{
+    clip-path: polygon(10% 15%, 80% 5%, 100% 50%,75% 95%, 100);
+}
+.imge{
+    display: block;
+    position: absolute;
+    top: 1000px;
+    bottom: 0;
+    left: 310px;
+    right: 0;
+    clip-path: polygon(25% 5%, 75% 5%, 90% 50%, 75% 95%, 25% 95%, 8% 50%);
+}
+.imge:hover{
+    transform: translateY(-8px);
+}
+.imgi{
+    display: block;
+    position: absolute;
+    top: 1000px;
+    bottom: 0;
+    left: 739px;
+    right: 0;
+    clip-path: polygon(25% 5%, 75% 5%, 90% 50%, 75% 95%, 25% 95%, 8% 50%);
+}
+.imgi:hover{
+    transform: translateY(-8px);
+}
+.imgm{
+    display: block;
+    position: absolute;
+    top: 1100px;
+    bottom: 0;
+    left: 525px;
+    right: 0;
+    clip-path: polygon(25% 5%, 75% 5%, 90% 50%, 75% 95%, 25% 95%, 8% 50%);
+}
+.imgm:hover{
+    transform: translateY(-8px);
+}
+.imgn{
+    display: block;
+    position: absolute;
+    top: 1190px;
+    bottom: 0;
+    left: 310px;
+    clip-path: polygon(25% 5%, 75% 5%, 90% 50%, 75% 95%, 25% 95%, 8% 50%);
+}
+.imgn:hover{
+    transform: translateY(-8px);
+}
+.imgs{
+    display: block;
+    position: absolute;
+    top: 1190px;
+    bottom: 0;
+    left: 739px;
+    right: 0;
+    clip-path: polygon(25% 5%, 75% 5%, 90% 50%, 75% 95%, 25% 95%, 8% 50%);
+}
+.imgs:hover{
+    transform: translateY(-8px);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+    padding-top: 20px;
+    margin-top: 200px;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    transform: scale(0.9);
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}

@@ -1,0 +1,88 @@
+body{
+    background-image: url("/img/index/fondo-basic.png");
+}
+@font-face{
+    font-family: kghappy;
+    src: url(/fonts/kg_happy-20220602T183540Z-001/kg_happy/KGHAPPY.ttf) ;
+}
+@font-face{
+    font-family: hallowen;
+    src: url(/fonts/halloween_4/halloween\ black\ otf.otf);
+    font-weight: bold;
+}
+.ingresar{
+    width: 400px;
+    height: 340px;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px black;
+    padding: 20px 30px;
+    border-top: 5px solid #017bab;
+    color: white;
+}
+.ingresar h5{
+    text-align: center;
+    margin: 0%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 12px;
+    font-family: hallowen;
+}
+.controls{
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 10px;
+    padding: 18px 3px;
+    background: #252323;
+    color: white;
+}
+.boton{
+    width: 100%;
+    height: 30px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 4px;
+    cursor: pointer;
+
+}
+.boton:hover{
+    box-shadow: 0 8px 12px black;
+}
+
+.ingresar a{
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+}
+.volver{
+    width: 840px;
+}
+.volver a{
+    text-decoration: none;
+    font-family: kghappy;
+    font-size: 15px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+    padding-right: 10px;
+    
+}
+.volver a:hover{
+    transform: translateY(763px);
+}
+.volver img{
+    width: 20px;
+    padding-left: 10px;
+}
+.ingresar p{
+    padding: 0;
+    font-family: hallowen;
+    line-height: 20px;
+    font-size: 10px;
+}
+.radio{
+    padding: 10px;
+}

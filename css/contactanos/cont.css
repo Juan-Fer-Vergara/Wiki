@@ -1,0 +1,79 @@
+body{
+    background-image: url("/img/index/fondo-basic.png");
+    
+}
+@font-face{
+    font-family: hallowen;
+    src: url(/fonts/halloween_4/halloween\ black\ otf.otf);
+    font-weight: bold;
+}
+
+.ingresar{
+    width: 400px;
+    height: 340px;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px black;
+    padding: 20px 30px;
+    border-top: 5px solid #017bab;
+    color: white;
+}
+.ingresar h5{
+    text-align: center;
+    margin: 0%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 13px;
+    font-family: hallowen;
+}
+.controls{
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 20px;
+    padding: 8px 5px;
+    background: #252323;
+    color: white;
+}
+.ingresar textarea{
+    height: 80px;
+}
+.boton{
+    width: 100%;
+    height: 30px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-family: hallowen;
+    font-size: 9px;
+}
+.boton:hover{
+    box-shadow: 0 8px 12px black;
+}
+.ingresar a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.volver{
+    width: 840px;
+}
+.volver a{
+    text-decoration: none;
+    font-family: kghappy;
+    font-size: 15px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+.volver a:hover{
+    transform: translateY(763px);
+}
+.volver img{
+    width: 20px;
+    padding-left: 10px;
+}
