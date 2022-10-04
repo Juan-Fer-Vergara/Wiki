@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="/img/index/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="/css/materias/principal/ad-matematicas.css">
+  <title>WikiStud</title>
+</head>
+
+<body>
+  <header>
+
+    <div class="bagra">
+      <nav class="menu">
+        <a href="/html/grados-republica/sexto.html">Inicio</a>
+        <div class="desplegable">
+          <button class="test"> Grado <span><img width="15px" src="/img/iconos/icon-sede.png" alt=""></span></button>
+          <div class="opciones">
+            <a href="/html/grados-rosa/quinto.html">Quinto</a>
+            <a href="/html/grados-republica/sexto.html">Sexto</a>
+          </div>
+        </div>
+        <a href="/html/nosotros.html">Nosotros <span><img src="/img/materias/nosotros.png" alt=""></span></a>
+        <a href="/html/contactanos.html">Contactanos <span><img width="15px" src="/img/materias/tell.png"
+              alt=""></span></a>
+        <div class="desplegable">
+          <button class="test">Admin <span><img src="/img/materias/lock.png" alt=""></span> </button>
+          <div class="opciones">
+            <a href="/html/materias-republica/matematicas.html">Admin Matematicas</a>
+            <a href="./naturales.html">Admin Naturales</a>
+            <a href="./ingles.html">Admin Ingles</a>
+            <a href="./español.html">Admin Español</a>
+            <a href="./sociales.html">Admin Sociales</a>
+          </div>
+        </div>
+        <nav class="lateral">
+          <div class="desplegable">
+            <button class="test"> <span><img src="/img/materias/menu.png" alt="" width="20px"></span></button>
+            <div class="opciones">
+              <a href="#"> <span><img width="25px" src="/img/materias/perfilicon.png" alt=""></span> Perfil</a>
+              <a href="#"> <span><img width="25px" src="/img/materias/misionicon.png" alt=""></span> Mision</a>
+              <a href="#"> <span><img width="25px" src="/img/materias/visionicon.png" alt=""></span> Vision</a>
+              <a href="/html/index.html"> <span><img width="25px" src="/img/materias/cerrasession.png" alt=""></span>
+                Cerrar Sesion</a>
+            </div>
+          </div>
+    </div>
+    </nav>
+    </nav>
+    </div>
+
+
+  </header>
+
+  <div class="linea">
+    <form id="task-form">
+      <div class="archivo">
+        
+        <!-- Primer input -->
+        <h2>Ingresar archivo</h2>
+        <label>Nombre Del Archivo</label>
+        <input id="task-title" class="titulo" type="text" placeholder="Ingresar Nombre" required>
+        
+        <!-- Segundo input -->
+        <label>Descripcion Del Archivo</label>
+        <textarea id="task-description" required placeholder="Ingresar Descripcion" rows="6"></textarea>
+        
+        <!-- Input para imagen -->
+        <input id="task-img" class="ingresar" type="file">
+
+
+        <!-- Boton -->
+        <button id="btn-task-form">Enviar</button>
+      </div>
+    </form>
+    
+    <!-- Muestra las actividades -->
+    <div id="tasks-container">
+    </div>
+
+  </div>
+  <script type="module" src="../../javascript/Admins/ad-matematicas.js"></script>
+</body>
+
+</html>

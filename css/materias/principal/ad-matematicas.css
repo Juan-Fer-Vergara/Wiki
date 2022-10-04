@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: kghappy;
+    src: url(/fonts/kg_happy-20220602T183540Z-001/kg_happy/KGHAPPY.ttf) ;
+}
+@font-face{
+    font-family: hallowen;
+    src: url(/fonts/halloween_4/halloween\ black\ otf.otf);
+    font-weight: bold;
+}
+
+.bagra{
+    background: linear-gradient(to right, #00B2FF , #0400FF );
+}
+.menu{
+    margin-left: 350px;
+    width: 900 ;
+    top: 0%; 
+}
+.menu a{
+    text-decoration: none;
+    padding: 17px 30px;
+    display: inline;
+    color: black;
+    font-weight: 10px;
+    margin: auto;
+    font-family: kghappy;
+    z-index: 4px;
+}
+.menu a:hover{
+
+background: white;
+}
+
+.texto{
+    font-size: 9px;
+    border: none;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.texto:hover{
+    background-color: aquamarine;
+}
+
+.contenido{
+    display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  
+}
+.test{
+    text-decoration: none;
+    color:black;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+    background:transparent;
+    font-family: kghappy;
+
+}
+.test img{
+    height: 15px;
+}
+.desplegable{
+display: inline-block;
+position: relative;
+}
+.opciones{
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right, #0093FF , #0027FF );
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+.opciones a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.opciones a:hover{
+    background-color: white;
+}
+
+.desplegable:hover .opciones{
+    display: block;
+}
+.desplegable:hover .test{
+    background-color:white;
+}
+.menu a img{
+    width: 17px;
+}
+.lateral{
+    margin-left: 940px;
+    position: absolute;
+    top: 0px; 
+}
+.opciones{
+    margin-left: -100px;
+}
+.lateral a{
+    display: list-item;
+    list-style: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.archivo{
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(to right, #00B2FF,#0027FF);
+    margin-left: 110px;
+    border-radius: 10px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, -0.015),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.044),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.11),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.176),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.235),
+    100px 100px 80px rgba(0, 0, 0, 0.22);
+}
+.archivo label{
+    margin-left: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.archivo input,textarea{
+    display: list-item;
+    margin-left: 70px;
+    margin-bottom: 14px;
+    width: 70%;
+    border-radius: 3px;
+    border: none; 
+}
+.archivo button{
+    background-color: #0093FF;
+    border: none;
+    border-radius: 10px;
+    width:80px;
+    height: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-bottom: 14px;
+}
+
+.archivo h2{
+    text-decoration: none;
+    font-family: hallowen;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    color: black;
+    border-bottom: 2px solid black;
+}
+ .ingresar {
+position: relative;
+margin-top: 0px;
+cursor: pointer;
+
+} 
+ .ingresar::before{
+    background-color: #5678EF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "Seleccionar Imagen";
+    background: #5678EF;
+} 
+.linea{
+    display: flex;
+    flex-direction: row;
+}
+.contenedor{
+    background: linear-gradient(to right, #00B2FF,#0027FF);
+    width: 300px;
+    height: 100px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, -0.015),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.044),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.11),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.176),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.235),
+    100px 100px 80px rgba(0, 0, 0, 0.22);
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid black;
+
+}
+.contenedor button{
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    margin-top: 10px;
+    background-color: #0093FF;
+}
+.h5{
+    border-bottom: 2px solid black;
+}

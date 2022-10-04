@@ -1,0 +1,226 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: hallowen;
+    src: url(/fonts/halloween_4/halloween\ black\ otf.otf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: kghappy;
+    src: url(/fonts/kg_happy-20220602T183540Z-001/kg_happy/KGHAPPY.ttf) ;
+}
+body{
+    background:url(/img/index/fondo-basic.png);
+    background-position: center;
+}
+
+.card{
+    background:linear-gradient(to bottom,#0400FF ,   #00B2FF);
+    border-radius: 8px;
+    box-shadow: 0 12px 16px black;
+    width: 220px;
+    margin: 20px;
+    display: inline-block;
+    align-content: center;
+    margin-bottom: 60px;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.card h4,p{
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+}
+.card a{
+    text-decoration: none;
+    color:blueviolet;
+    font-weight: bold;
+}
+h1{
+    font-family: hallowen;
+    font-size: 17px;
+    -webkit-text-stroke: 2px gray;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.bagra{
+    background: linear-gradient(to right, #00B2FF , #0400FF );
+}
+.menu{
+    margin-left: 350px;
+    width: 900 ;
+    top: 0%; 
+}
+.menu a{
+    text-decoration: none;
+    padding: 17px 30px;
+    display: inline;
+    color: black;
+    font-weight: 10px;
+    margin: auto;
+    font-family: kghappy;
+    z-index: 4px;
+}
+.menu a:hover{
+background: white;
+}
+.texto{
+    font-size: 9px;
+    border: none;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.texto:hover{
+    background-color: aquamarine;
+}
+
+.contenido{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  
+}
+.test{
+    text-decoration: none;
+    color:black;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+    background:transparent;
+    
+    font-family: kghappy;
+
+}
+.desplegable{
+display: inline-block;
+position: relative;
+}
+.opciones{
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right, #0093FF , #0027FF );
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+.opciones a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.opciones a:hover{
+    background-color: white;
+}
+.desplegable:hover .opciones{
+    display: block;
+}
+.desplegable:hover .test{
+    background-color:white;
+}
+.volver{
+    width: 840px;
+}
+.volver a{
+    text-decoration: none;
+    font-family: kghappy;
+    font-size: 15px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+    padding-right: 10px;
+    
+}
+.volver a:hover{
+    transform: translateY(763px);
+}
+.volver img{
+    width: 20px;
+    padding-left: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+    padding-top: 20px;
+    margin-top: 200px;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    transform: scale(0.9);
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+.card i{
+    padding-left: 10px;
+}
+.card a{
+    color: black;
+}

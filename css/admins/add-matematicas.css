@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: kghappy;
+    src: url(/fonts/kg_happy-20220602T183540Z-001/kg_happy/KGHAPPY.ttf) ;
+}
+@font-face{
+    font-family: hallowen;
+    src: url(/fonts/halloween_4/halloween\ black\ otf.otf);
+    font-weight: bold;
+}
+.bagra{
+    background: linear-gradient(to right, #00B2FF , #0400FF );
+}
+.menu{
+    margin-left: 350px;
+    width: 900 ;
+    top: 0%; 
+}
+.menu a{
+    text-decoration: none;
+    padding: 17px 30px;
+    display: inline;
+    color: black;
+    font-weight: 10px;
+    margin: auto;
+    font-family: kghappy;
+    z-index: 4px;
+}
+.menu a:hover{
+
+background: white;
+}
+
+.texto{
+    font-size: 9px;
+    border: none;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.texto:hover{
+    background-color: aquamarine;
+}
+
+.contenido{
+    display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  
+}
+.test{
+    text-decoration: none;
+    color:black;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+    background:transparent;
+    font-family: kghappy;
+
+}
+.test img{
+    height: 15px;
+}
+.desplegable{
+display: inline-block;
+position: relative;
+}
+.opciones{
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right, #0093FF , #0027FF );
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+.opciones a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.opciones a:hover{
+    background-color: white;
+}
+
+.desplegable:hover .opciones{
+    display: block;
+}
+.desplegable:hover .test{
+    background-color:white;
+}
+.menu a img{
+    width: 17px;
+}
+.lateral{
+    margin-left: 940px;
+    position: absolute;
+    top: 0px; 
+}
+.opciones{
+    margin-left: -100px;
+}
+.lateral a{
+    display: list-item;
+    list-style: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
